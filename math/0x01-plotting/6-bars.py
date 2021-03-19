@@ -1,4 +1,4 @@
-#%%
+#!/usr/bin/env python3
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -15,6 +15,7 @@ plt.ylabel("Quantity of Fruit")
 for i in range(len(fruit)):
     plt.bar(labels1, fruit[i], bottom=np.sum(fruit[:i], axis=0),
             color=colors[i], label=fruits[i], width=0.5)
+    
 plt.yticks(np.arange(0, 90, 10))
 plt.legend()
 
