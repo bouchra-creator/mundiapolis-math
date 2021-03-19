@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-mport numpy as np
+import numpy as np
 import matplotlib.pyplot as plt
 
 mean = [69, 0]
