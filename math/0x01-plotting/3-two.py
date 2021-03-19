@@ -1,4 +1,4 @@
-#%%
+#!/usr/bin/env python3
 import numpy as np
 import matplotlib.pyplot as plt
 x = np.arange(0, 21000, 1000)
