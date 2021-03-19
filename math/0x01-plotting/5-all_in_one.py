@@ -58,13 +58,13 @@ plt.title("Exponential Decay of Radioactive Elements",size="small")
 plt.legend(loc='upper right', shadow=True, fontsize='large')
 
 rows5 = figure.add_subplot(grid[2, :2])
-Tab=[10,20,30,40,50,60,70,80,90,100]
+bins=[10,20,30,40,50,60,70,80,90,100]
 plt.ylim(0, 30)
 plt.xlim(0, 100)
 plt.xticks(np.arange(0, 110, 10))
 plt.xlabel('Grades',size="x-small")
 plt.ylabel('Number of Students',size="x-small")
 plt.title("Project A")
-plt.hist(student_grades, Tab ,edgecolor='black')
+plt.hist(student_grades, bins ,edgecolor='black')
 
 plt.show()
